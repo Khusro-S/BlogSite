@@ -1,0 +1,29 @@
+{
+    "blogs": [
+            {
+              "title": "My new website",
+              "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque vel minus ipsum iste veritatis, deleniti blanditiis exercitationem totam est. Quibusdam soluta explicabo quaerat aspernatur quidem labore aliquam maxime error blanditiis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat beatae ad, odit expedita inventore sed eius atque perspiciatis reiciendis excepturi totam deleniti hic. Sit iste ea repudiandae delectus rem corporis.Possimus, ex eos eligendi nemo commodi corporis, explicabo dolorum neque unde iusto facere ipsum error. Facilis qui quod odio voluptate sapiente. Praesentium magni et nihil, cum nisi sapiente enim iste.",
+              "author": "mario",
+              "id": 1
+            },
+            {
+              "title": "Welcome party",
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cumque quo unde minima. Sint aliquam harum nam hic commodi corporis aperiam ipsam eligendi voluptate. Illo exercitationem quasi repellendus quibusdam eaque. Qui praesentium iusto expedita odit adipisci, earum, quaerat voluptatum accusantium numquam ea consectetur ipsam veritatis suscipit eveniet ab cupiditate non quod ut repudiandae consequuntur vel. Possimus ex impedit labore modi. Adipisci nostrum, atque alias inventore expedita cupiditate ad nobis quaerat optio velit, sequi laboriosam eius quis facilis aut quam? Molestiae, doloremque officiis laboriosam aperiam neque explicabo quas ut? Impedit, quam! Tempora impedit voluptatem hic ratione animi mollitia accusantium laudantium voluptatum quia assumenda cum quasi, facilis quibusdam dicta temporibus inventore beatae doloremque, quam ipsa possimus praesentium dolorum rem tempore libero! Aperiam?",
+              "author": "yoshi",
+              "id": 2
+            },
+            {
+              "title": "My dev top tips",
+              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, amet error rem modi assumenda esse rerum, eligendi facilis aliquam accusamus iste itaque illo et quo aspernatur facere maiores ipsam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quas, dolores ipsa, in dolorum delectus fuga fugit placeat saepe vitae rem odit sed iusto, pariatur esse. Aut aliquam voluptates fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magnam officia exercitationem ad, fuga nesciunt sed ab nam labore perferendis maiores tempore quia ex consequatur repudiandae. Pariatur non illo necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora necessitatibus molestias itaque, quia doloremque modi adipisci optio, maxime at architecto voluptatum eveniet dicta sed nihil ab nemo similique reiciendis? Officia?",
+              "author": "luigi",
+              "id": 3
+            },
+            {
+                "title": "My daily routine tips",
+                "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, amet error rem modi assumenda esse rerum, eligendi facilis aliquam accusamus iste itaque illo et quo aspernatur facere maiores ipsam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quas, dolores ipsa, in dolorum delectus fuga fugit placeat saepe vitae rem odit sed iusto, pariatur esse. Aut aliquam voluptates fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magnam officia exercitationem ad, fuga nesciunt sed ab nam labore perferendis maiores tempore quia ex consequatur repudiandae. Pariatur non illo necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora necessitatibus molestias itaque, quia doloremque modi adipisci optio, maxime at architecto voluptatum eveniet dicta sed nihil ab nemo similique reiciendis? Officia?",
+                "author": "luigi",
+                "id": 4
+              }
+        ]
+    
+}
