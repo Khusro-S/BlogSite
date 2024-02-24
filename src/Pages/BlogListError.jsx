@@ -14,7 +14,7 @@ export default function BlogListError() {
       <p>
         Go{" "}
         <Link
-          to="home"
+          to="/"
           className="hover:text-red-400 border-b-2 border-red-400 border-solid"
         >
           Home
