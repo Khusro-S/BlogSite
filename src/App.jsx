@@ -15,6 +15,8 @@ import BlogList, { blogLoader } from "./Pages/BlogList";
 import NewBlog from "./Pages/NewBlog";
 import NotFound from "./Pages/NotFound";
 import BlogListError from "./Pages/BlogListError";
+import BlogDetail, { blogDetailLoader } from "./Pages/BlogDetail";
+import BlogDetailError from "./Pages/BlogDetailError";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,6 +26,12 @@ const router = createBrowserRouter(
         element={<BlogList title="All Blogs" />}
         loader={blogLoader}
         errorElement={<BlogListError />}
+      />
+      <Route
+        path="/blogs/:id"
+        element={<BlogDetail />}
+        loader={blogDetailLoader}
+        errorElement={<BlogDetailError />}
       />
 
       <Route path="new-blog" element={<NewBlog />} />

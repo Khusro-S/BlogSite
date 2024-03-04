@@ -1,29 +1,74 @@
 {
-    "blogs": [
-            {
-              "title": "My new website",
-              "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque vel minus ipsum iste veritatis, deleniti blanditiis exercitationem totam est. Quibusdam soluta explicabo quaerat aspernatur quidem labore aliquam maxime error blanditiis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat beatae ad, odit expedita inventore sed eius atque perspiciatis reiciendis excepturi totam deleniti hic. Sit iste ea repudiandae delectus rem corporis.Possimus, ex eos eligendi nemo commodi corporis, explicabo dolorum neque unde iusto facere ipsum error. Facilis qui quod odio voluptate sapiente. Praesentium magni et nihil, cum nisi sapiente enim iste.",
-              "author": "mario",
-              "id": 1
-            },
-            {
-              "title": "Welcome party",
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cumque quo unde minima. Sint aliquam harum nam hic commodi corporis aperiam ipsam eligendi voluptate. Illo exercitationem quasi repellendus quibusdam eaque. Qui praesentium iusto expedita odit adipisci, earum, quaerat voluptatum accusantium numquam ea consectetur ipsam veritatis suscipit eveniet ab cupiditate non quod ut repudiandae consequuntur vel. Possimus ex impedit labore modi. Adipisci nostrum, atque alias inventore expedita cupiditate ad nobis quaerat optio velit, sequi laboriosam eius quis facilis aut quam? Molestiae, doloremque officiis laboriosam aperiam neque explicabo quas ut? Impedit, quam! Tempora impedit voluptatem hic ratione animi mollitia accusantium laudantium voluptatum quia assumenda cum quasi, facilis quibusdam dicta temporibus inventore beatae doloremque, quam ipsa possimus praesentium dolorum rem tempore libero! Aperiam?",
-              "author": "yoshi",
-              "id": 2
-            },
-            {
-              "title": "My dev top tips",
-              "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, amet error rem modi assumenda esse rerum, eligendi facilis aliquam accusamus iste itaque illo et quo aspernatur facere maiores ipsam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quas, dolores ipsa, in dolorum delectus fuga fugit placeat saepe vitae rem odit sed iusto, pariatur esse. Aut aliquam voluptates fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magnam officia exercitationem ad, fuga nesciunt sed ab nam labore perferendis maiores tempore quia ex consequatur repudiandae. Pariatur non illo necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora necessitatibus molestias itaque, quia doloremque modi adipisci optio, maxime at architecto voluptatum eveniet dicta sed nihil ab nemo similique reiciendis? Officia?",
-              "author": "luigi",
-              "id": 3
-            },
-            {
-                "title": "My daily routine tips",
-                "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, amet error rem modi assumenda esse rerum, eligendi facilis aliquam accusamus iste itaque illo et quo aspernatur facere maiores ipsam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quas, dolores ipsa, in dolorum delectus fuga fugit placeat saepe vitae rem odit sed iusto, pariatur esse. Aut aliquam voluptates fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magnam officia exercitationem ad, fuga nesciunt sed ab nam labore perferendis maiores tempore quia ex consequatur repudiandae. Pariatur non illo necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora necessitatibus molestias itaque, quia doloremque modi adipisci optio, maxime at architecto voluptatum eveniet dicta sed nihil ab nemo similique reiciendis? Officia?",
-                "author": "luigi",
-                "id": 4
-              }
-        ]
-    
+  "blogs": [
+    {
+      "title": "My new website",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "mario",
+      "slug": "My-new-Website",
+      "id": "My-new-Website"
+    },
+    {
+      "title": "Welcome party",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cumque quo unde minima. Sint aliquam harum nam hic commodi corporis aperiam ipsam eligendi voluptate. Illo exercitationem quasi repellendus quibusdam eaque. Qui praesentium iusto expedita odit adipisci, earum, quaerat voluptatum accusantium numquam ea consectetur ipsam veritatis suscipit eveniet ab cupiditate non quod ut repudiandae consequuntur vel. Possimus ex impedit labore modi. Adipisci nostrum, atque alias inventore expedita cupiditate ad nobis quaerat optio velit, sequi laboriosam eius quis facilis aut quam? Molestiae, doloremque officiis laboriosam aperiam neque explicabo quas ut? Impedit, quam! Tempora impedit voluptatem hic ratione animi mollitia accusantium laudantium voluptatum quia assumenda cum quasi, facilis quibusdam dicta temporibus inventore beatae doloremque, quam ipsa possimus praesentium dolorum rem tempore libero! Aperiam?",
+      "author": "yoshi",
+      "slug": "Welcome-party",
+      "id": "Welcome-party"
+    },
+    {
+      "title": "My dev top tips",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "luigi",
+      "slug": "My-dev-top-tips",
+      "id": "My-dev-top-tips"
+    },
+    {
+      "title": "My daily routine tips",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, amet error rem modi assumenda esse rerum, eligendi facilis aliquam accusamus iste itaque illo et quo aspernatur facere maiores ipsam ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quas, dolores ipsa, in dolorum delectus fuga fugit placeat saepe vitae rem odit sed iusto, pariatur esse. Aut aliquam voluptates fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magnam officia exercitationem ad, fuga nesciunt sed ab nam labore perferendis maiores tempore quia ex consequatur repudiandae. Pariatur non illo necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora necessitatibus molestias itaque, quia doloremque modi adipisci optio, maxime at architecto voluptatum eveniet dicta sed nihil ab nemo similique reiciendis? Officia?\nWhy do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "luigi",
+      "slug": "My-daily-routine-tips",
+      "id": "My-daily-routine-tips"
+    },
+    {
+      "id": "Milestone",
+      "title": "Milestone",
+      "body": "I still havent figured out how can I achieve that paragraph look, let me give this a show wait <br> I hope it worked, if it says \"<br>\" instead of actually going to a new line, the I still havent figured it out lol, Let's see...",
+      "author": "yoshi",
+      "time": ""
+    },
+    {
+      "id": "Failed-));",
+      "title": "Failed ));",
+      "body": "Okay so I failed again but let's see cuz I made some changes again \\n if this line that youre reading right now doesnt show up in  a new line and just says \"\\n\" instead, then yep I failed again lol,  cuz the changes I made is supposed to convert \"\\n\" to \"<br>\" in html and boom \\n take your following words onto a new line, let's put it to a test....",
+      "author": "luigi",
+      "time": ""
+    },
+    {
+      "id": "ouch-;(((",
+      "title": "ouch ;(((",
+      "body": "It is still not working <br> 😭😭😭, why why why lol",
+      "author": "mario",
+      "time": ""
+    },
+    {
+      "id": "oh-wait-lol",
+      "title": "oh wait lol",
+      "body": "it is working lol, just have to write \"<br>\" whenever you want to hop onto another line ehehehe <br> <br> lol now it should be down two lines, giving the paragraph look ehehehehe",
+      "author": "luigi",
+      "time": ""
+    },
+    {
+      "id": "Working!!!!",
+      "title": "Working!!!!",
+      "body": "it is working now yasss, also I just might've came up with a solution for the same title issue as well. <br><br>\nso the issue is that when two blogs have the same title, it basically points to the same url, which shouldn't be happening as the blog before this newly added one, gets absolute and gives off 404 error, sooo, I will just add the author in the title as well, <br><br> \nBut I can't do that either since as for now, you can only choose between the predefined authors, or maybe I'll just change that into a text input field hmmm 🤔",
+      "author": "luigi",
+      "time": ""
+    },
+    {
+      "id": "no-WAITT!!!",
+      "title": "no WAITT!!!",
+      "body": "i guess it was working all along....\n\nso you dont have to write \"<br>\" everything time you want to go to the next line lol, I was seeing it wrong so apparently, just simply hitting enter as many times as you want works now ehehehe, let me just add some dummy text to make this blog more filled and mock An actual blog I guess, let's put it to a test woo hoo 🥳.\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean volutpat lacus in ullamcorper dapibus. Aenean egestas tristique porttitor. Integer egestas, felis in placerat elementum, eros arcu mollis nulla, in porttitor velit lorem sit amet lorem. Sed hendrerit ultricies sem, eu tempus dui interdum rutrum. Sed efficitur arcu purus, non ullamcorper mi mattis non. Praesent erat leo, tristique id elit eget, tincidunt sodales leo. Duis tempus porttitor lacinia. Proin dignissim sem a nisl rhoncus, in gravida massa facilisis. Suspendisse pharetra odio imperdiet justo dictum mollis. Vivamus sollicitudin sapien a felis dapibus, at gravida dolor ultricies.\n\nVestibulum tincidunt, nisi quis fringilla porta, enim elit placerat nisi, eget finibus sem purus id arcu. Nullam rutrum tortor ut enim sodales gravida. Suspendisse luctus ac nisl eget fringilla. Nam nisi diam, pretium euismod nisi eu, imperdiet congue sapien. Suspendisse potenti. Fusce in massa a enim vehicula bibendum. Integer sodales tristique odio tempor convallis.\n\nSed finibus suscipit mi eu eleifend. Sed ante erat, blandit vel porttitor ut, vestibulum ultrices nunc. Fusce imperdiet convallis ligula non vulputate. Integer consectetur tincidunt mi, sit amet mollis sapien sagittis id. Cras dui enim, auctor vitae mi nec, maximus lobortis eros. Integer volutpat orci ut tincidunt blandit. Ut vulputate, nulla sit amet pretium rhoncus, massa felis iaculis velit, id dignissim elit tortor eu nisl. Nam dictum enim id justo posuere tincidunt. Vestibulum cursus sapien id ipsum aliquam, non euismod purus pellentesque. Pellentesque luctus lacus ac mi eleifend, id semper ligula dapibus. Nam id suscipit ligula. Nullam sed diam sem. In fringilla ligula eget aliquam ornare. Sed accumsan orci eu dolor ornare semper.\n\nPhasellus vitae nulla id leo rutrum ornare. Curabitur est mauris, bibendum at venenatis a, viverra auctor erat. Suspendisse aliquet dolor vitae ipsum aliquet, id varius nunc vulputate. Fusce blandit luctus facilisis. Duis quis efficitur ligula. Nunc nec ante in eros pellentesque ultricies vel vel ipsum. Nulla id metus ac nulla fringilla tempus. Quisque commodo turpis arcu, sit amet varius ante rhoncus non. Nulla ultricies laoreet urna, ut ultricies enim consectetur quis. Morbi blandit euismod elementum. Cras nunc ante, congue congue porta sit amet, tempus nec tortor. Aenean sagittis est sit amet justo scelerisque ultrices. Nulla sit amet velit sed lectus laoreet fringilla. Donec quis dolor sed velit tincidunt lobortis quis eleifend massa.\n\nMaecenas vel nisi sollicitudin, auctor mauris id, ornare nulla. Nulla in urna lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis, dolor at molestie sagittis, urna ante pellentesque nunc, pretium congue metus purus non enim. Sed sit amet commodo nibh. Vestibulum ac quam sit amet purus tempor molestie id ut quam. Maecenas vel mauris dignissim, ultrices dui ut, suscipit eros. Phasellus eget arcu eget justo cursus commodo aliquet sit amet dolor. Suspendisse efficitur turpis et lobortis auctor. Mauris consectetur magna metus, eu efficitur nulla feugiat eget. Sed scelerisque molestie tempus. Nam dignissim nibh justo. Ut pulvinar malesuada dolor, nec pulvinar magna imperdiet ut. Duis a nulla ante. Donec lobortis, mauris eget molestie tincidunt, urna felis fringilla felis, nec pretium risus arcu id ipsum. Integer convallis pretium lectus ac hendrerit.",
+      "author": "yoshi",
+      "time": ""
+    }
+  ]
 }
