@@ -15,7 +15,7 @@ export default function BlogDetail() {
   // const { id } = useLoaderData();
   const handleDelete = (id) => {
     console.log("handle delete id: " + id);
-    fetch("http://localhost:4000/blogs/" + id, {
+    fetch("/data/db.json/" + id, {
       method: "DELETE",
     }).then(() => {
       navigate("/");
