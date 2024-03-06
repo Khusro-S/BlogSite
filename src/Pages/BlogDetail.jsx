@@ -50,8 +50,15 @@ export default function BlogDetail() {
                 <span className="border-b border-red-400 border-solid font-semibold">
                   {blogData.author}
                 </span>
+                <br />
+                At:{" "}
+                <span className="border-b border-red-400 border-solid font-semibold">
+                  {blogData.time}
+                  {console.log(blogData.time)}
+                </span>
               </p>
-              {console.log("normal id: " + blogData.id)}
+
+              {/* {console.log("normal id: " + blogData.id)} */}
               <Form
                 method="delete"
                 onSubmit={() => handleDelete(blogData.id)}
@@ -75,9 +82,9 @@ export default function BlogDetail() {
 export const blogDetailLoader = async ({ params }) => {
   const getData = async () => {
     const { id } = params;
-    await new Promise((resolve) => setTimeout(resolve, 3000));
+    await new Promise((resolve) => setTimeout(resolve, 1000));
 
-    const res = await fetch("http://localhost:4000/blogs/" + id);
+    const res = await fetch("/data/db.json/" + id);
 
     if (!res.ok) {
       throw Error("Couldnt fetch blog");

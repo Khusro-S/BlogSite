@@ -21,11 +21,13 @@ export default function NewBlog() {
         ...currData,
         [changeField]: newValue,
         id: newId,
+        time: new Date().toString().slice(0, 24),
       }));
     } else {
       setAddNewBlogData((currData) => ({
         ...currData,
         [changeField]: newValue,
+        time: new Date().toString().slice(0, 24),
       }));
     }
   };
@@ -52,12 +54,12 @@ export default function NewBlog() {
       title: "",
       body: "",
       author: "",
-      timer: new Date(),
+      time: "",
     });
   };
 
   return (
-    <div className="max-w-96 my-0 mx-auto text-center">
+    <div className="max-w-[40rem] my-0 mx-auto text-center">
       <h1 className="py-5 text-red-400">Add New Blog</h1>
 
       <form onSubmit={handleSubmit}>
@@ -78,7 +80,7 @@ export default function NewBlog() {
           Blog body:
         </label>
         <textarea
-          className="w-full px-3 py-2 my-3 mx-0 box-border block border border-solid border-red-400 rounded-lg focus:outline-none focus:border-red-400 focus:border-2 h-32"
+          className="w-full px-3 py-2 my-3 mx-0 box-border block border border-solid border-red-400 rounded-lg focus:outline-none focus:border-red-400 focus:border-2 h-64"
           name="body"
           id="body"
           value={addNewBlogData.body}
@@ -101,6 +103,16 @@ export default function NewBlog() {
           <option value="yoshi">yoshi</option>
           <option value="luigi">luigi</option>
         </select>
+
+        <input
+          type="text"
+          name="time"
+          id="time"
+          value={addNewBlogData.time}
+          // onChange={handleChange}
+          readOnly
+          className="hidden"
+        />
 
         {!isAdding ? (
           <button className="bg-red-400 border-none p-2 rounded-lg cursor-pointer text-white font-semibold hover:scale-105 active:scale-100 transition-transform ease-linear">
