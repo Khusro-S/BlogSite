@@ -12,10 +12,10 @@ import BlogDetailSkeletonLoading from "../Components/BlogDetailSkeletonLoading";
 export default function BlogDetail() {
   const blog = useLoaderData();
   const navigate = useNavigate();
-  // const { id } = useLoaderData();
+
   const handleDelete = (id) => {
-    console.log("handle delete id: " + id);
-    fetch("/data/db.json/" + id, {
+    // console.log("handle delete id: " + id);
+    fetch("/public/db.json/" + id, {
       method: "DELETE",
     }).then(() => {
       navigate("/");
@@ -54,7 +54,7 @@ export default function BlogDetail() {
                 At:{" "}
                 <span className="border-b border-red-400 border-solid font-semibold">
                   {blogData.time}
-                  {console.log(blogData.time)}
+                  {/* {console.log(blogData.time)} */}
                 </span>
               </p>
 
@@ -84,7 +84,7 @@ export const blogDetailLoader = async ({ params }) => {
     const { id } = params;
     await new Promise((resolve) => setTimeout(resolve, 3000));
 
-    const res = await fetch("/data/db.json/" + id);
+    const res = await fetch("/public/db.json/" + id);
 
     if (!res.ok) {
       throw Error("Couldnt fetch blog");

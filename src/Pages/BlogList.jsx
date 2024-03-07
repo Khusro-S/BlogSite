@@ -13,10 +13,12 @@ export default function BlogList({ title }) {
       <Suspense fallback={<HomeSkeletonLoading />}>
         <Await resolve={blogs.data} errorElement={<p>Error loading Blogs</p>}>
           {(data) =>
+            // (console.log(data))
             data.length === 0 ? (
               <p key={10}>Sorry no blog to show &#41;&#41;&apos;;</p>
             ) : (
               // console.log("empty message rendered")
+
               data.map((data) => (
                 <div
                   className="blogPreview block py-3 px-4 my-5 mx-0 border-b border-solid border-black border-opacity-10 shadow-[2px_2px_10px_#bebebe] hover:scale-105 rounded-lg transition-all ease-linear duration-200"
@@ -52,7 +54,7 @@ export const blogLoader = async () => {
   const getData = async () => {
     // await awaitTimeout(1000);
     await new Promise((resolve) => setTimeout(resolve, 1000));
-    const res = await fetch("/data/db.json");
+    const res = await fetch("/public/db.json");
 
     if (!res.ok) {
       throw Error(
