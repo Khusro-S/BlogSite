@@ -51,8 +51,8 @@ export default function BlogList({ title }) {
 export const blogLoader = async () => {
   const getData = async () => {
     // await awaitTimeout(1000);
-    // await new Promise((resolve) => setTimeout(resolve, 1000));
-    const res = await fetch("http://localhost:4000/blogs");
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    const res = await fetch("/data/db.json");
 
     if (!res.ok) {
       throw Error(
