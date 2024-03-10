@@ -24,11 +24,11 @@ export default function BlogDetail() {
 
   return (
     <div>
-      <p className="my-10">
+      <p className="mb-10">
         Go{" "}
         <button
           className="hover:text-red-400 border-b-2 border-red-400 border-solid"
-          onClick={() => navigate(-1)}
+          onClick={() => navigate("/")}
         >
           Back
         </button>

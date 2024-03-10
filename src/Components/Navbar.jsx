@@ -8,7 +8,7 @@ export default function Navbar() {
     });
   };
   return (
-    <nav className="flex justify-between items-center border-b-2 border-red-400 border-solid pb-3">
+    <nav className="flex justify-between items-center border-b-2 border-red-400 border-solid pb-5">
       <h1 className="text-red-400 ">BlogSite</h1>
       <div className="flex gap-5">
         <NavLink className={navLinkStyles} to="/">
