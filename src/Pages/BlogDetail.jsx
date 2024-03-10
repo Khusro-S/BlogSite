@@ -15,7 +15,7 @@ export default function BlogDetail() {
 
   const handleDelete = (id) => {
     // console.log("handle delete id: " + id);
-    fetch("/public/db.json/" + id, {
+    fetch("http://localhost:4000/blogs/" + id, {
       method: "DELETE",
     }).then(() => {
       navigate("/");
@@ -82,9 +82,9 @@ export default function BlogDetail() {
 export const blogDetailLoader = async ({ params }) => {
   const getData = async () => {
     const { id } = params;
-    await new Promise((resolve) => setTimeout(resolve, 3000));
+    await new Promise((resolve) => setTimeout(resolve, 1000));
 
-    const res = await fetch("/public/db.json/" + id);
+    const res = await fetch("http://localhost:4000/blogs/" + id);
 
     if (!res.ok) {
       throw Error("Couldnt fetch blog");

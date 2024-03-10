@@ -54,7 +54,7 @@ export const blogLoader = async () => {
   const getData = async () => {
     // await awaitTimeout(1000);
     await new Promise((resolve) => setTimeout(resolve, 1000));
-    const res = await fetch("/public/db.json");
+    const res = await fetch("http://localhost:4000/blogs");
 
     if (!res.ok) {
       throw Error(

@@ -57,18 +57,11 @@
       "time": "Wed Mar 06 2024 17:00:32 GMT+0300 (GMT+03:00)"
     },
     {
-      "id": "testing-the-date-again",
-      "title": "testing the date again",
-      "body": "Let me see if I have removed the extra unwanted date info ",
+      "id": "Testing-yet-once-again",
+      "title": "Testing yet once again",
+      "body": "I know this whole json server thingy wont work in the real world, it is, as far as I know, merely for testing in the development environment and for learning purpose which does its job really well. But if you want to deploy it then you will face some issues.\n\nso as far I could find out, if you want to deploy your project and you're using json server package, then you better learn node js for backend or api end points, or get a backend friend lol, but yea, perfect for learning api operations in local environment",
       "author": "mario",
-      "time": "Wed Mar 06 2024 17:09:02"
-    },
-    {
-      "id": "ehehehehehe",
-      "title": "ehehehehehe",
-      "body": "yes sir I did remove the extra date thingy but the ones uploaded before stayed cuz I made the changes jsut now lol",
-      "author": "yoshi",
-      "time": "Wed Mar 06 2024 17:09:38"
+      "time": "Sun Mar 10 2024 12:15:59"
     }
   ]
 }
